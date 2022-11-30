@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>BLOCK vs INLINE | Simple</title>
+    <style>
+        body {
+            background-color: #333;
+        }
+        #content {
+            background-color: #555;
+            color:antiquewhite;
+            font-family: Arial;
+            padding: 20px 40px;
+            /* =>
+            pedding-top:20px;
+            pedding-right:40px;
+            pedding-bottom:20px;
+            pedding-left:20px;
+            */
+            border-left: 5px solid #BBB;
+            margin-left: 15px;
+
+        }
+        .selected {
+            background-color: #BBB;
+            color: darkred;
+
+            padding: 0px 20px;
+            margin: 0px 20px;
+            border-left:3px solid darkred;
+            border-right:3px solid darkred;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas delectus labore sapiente illo tenetur pariatur vero nam iusto porro reiciendis voluptates, cum praesentium iste nihil quae? Assumenda temporibus libero quia? <span class="selected">Aspernatur illo iusto nobis dicta voluptas maiores, quisquam enim eveniet quam magni reiciendis unde!</span> Ipsam assumenda asperiores eveniet voluptas repellat dolorem dolorum eos dignissimos iste nostrum repudiandae blanditiis, fuga quos totam omnis iusto velit rerum, soluta eaque. Modi corrupti qui facere doloremque tempora quam magni. Quis placeat soluta impedit aperiam, ex reiciendis corrupti. Voluptas repellat ullam laudantium iure animi eius soluta dolore facilis sunt mollitia autem, in quas necessitatibus?
+    </div>
+
+</body>
+</html>
